@@ -41,7 +41,6 @@ nature_energy/
 │   └── fig3.png
 ├── requirements.txt
 ├── LICENSE
-├── CLAUDE.md                     # 项目技术规范
 └── README.md
 ```
 
