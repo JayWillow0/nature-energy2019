@@ -1,0 +1,32 @@
+# ===== 原始数据（体积大，需读者自行下载，详见 README）=====
+*.mat
+data/
+
+# ===== 中间产物 / pickle（均可由脚本重新生成，体积大）=====
+*.pkl
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+build/
+dist/
+
+# ===== 编辑器 / IDE / OS =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ===== 日志 / AI 工具缓存 =====
+.waylog/
+
+# ===== 其他 =====
+AGENTS.md
+CLAUDE.md
+
+# 说明：results/ 不忽略，其中的 *.png 用于 README 展示与结果留痕。

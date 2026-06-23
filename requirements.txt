@@ -1,0 +1,11 @@
+# 数据读取注意：datasets/BuildPkl_Batch*.py 使用 h5py 的 Dataset.value，
+# 该 API 在 h5py 3.0（2020 年末）已被移除，因此需锁定 h5py < 3.0。
+# 推荐组合：Python 3.6–3.7 + h5py 2.10.x
+h5py<3.0
+numpy
+scipy
+matplotlib
+pandas
+scikit-learn
+seaborn
+ipywidgets
